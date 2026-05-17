@@ -1,0 +1,366 @@
+{
+  "questions": [
+    {
+      "questionText": "Which environment variable is commonly used for the server port in Node.js?",
+      "options": [
+        "PORT",
+        "SERVER_NAME",
+        "NODE_MODE",
+        "APP_KEY"
+      ],
+      "correctAnswer": 0,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "In a REST API, which HTTP method is typically used to create a new resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PATCH",
+        "DELETE"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Node.js module system uses the require() function?",
+      "options": [
+        "ES Modules",
+        "CommonJS",
+        "TypeScript",
+        "JSON Schema"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "What does npm stand for in the Node.js ecosystem?",
+      "options": [
+        "Node Process Manager",
+        "New Package Mode",
+        "Node Package Manager",
+        "Network Package Method"
+      ],
+      "correctAnswer": 2,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which file commonly stores project metadata and scripts in a Node.js app?",
+      "options": [
+        "node.config",
+        "package.json",
+        "server.lock",
+        "env.local"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which built-in Node.js module is commonly used to create an HTTP server?",
+      "options": [
+        "fs",
+        "http",
+        "path",
+        "events"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which command installs dependencies listed in package.json?",
+      "options": [
+        "npm serve",
+        "npm start",
+        "npm install",
+        "node install"
+      ],
+      "correctAnswer": 2,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "What does process.env provide in a Node.js application?",
+      "options": [
+        "Browser cookies",
+        "Environment variables",
+        "Database tables",
+        "Compiled assets"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Node.js global object is commonly used to log debug information to the terminal?",
+      "options": [
+        "window",
+        "document",
+        "console",
+        "storage"
+      ],
+      "correctAnswer": 2,
+      "category": "Node.js",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Node.js runtime command is commonly used to execute a JavaScript file named app.js?",
+      "options": [
+        "run app.js",
+        "node app.js",
+        "npm app.js",
+        "start app.js"
+      ],
+      "correctAnswer": 1,
+      "category": "Node.js",
+      "isActive": true
+    },
+
+    {
+      "questionText": "What is the main role of Express Router?",
+      "options": [
+        "Rendering CSS",
+        "Defining routes",
+        "Managing MongoDB indexes",
+        "Encrypting passwords"
+      ],
+      "correctAnswer": 1,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which middleware parses incoming JSON request bodies in Express?",
+      "options": [
+        "cors()",
+        "express.static()",
+        "express.json()",
+        "cookieParser()"
+      ],
+      "correctAnswer": 2,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Express method is commonly used to handle GET requests?",
+      "options": [
+        "app.get()",
+        "app.post()",
+        "app.put()",
+        "app.useState()"
+      ],
+      "correctAnswer": 0,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which status code usually indicates a successful resource creation in an API?",
+      "options": [
+        "200",
+        "201",
+        "400",
+        "500"
+      ],
+      "correctAnswer": 1,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Express response method sends a JSON payload back to the client?",
+      "options": [
+        "res.json()",
+        "res.file()",
+        "res.route()",
+        "res.mount()"
+      ],
+      "correctAnswer": 0,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which middleware helper is used to serve static files such as images or CSS in Express?",
+      "options": [
+        "express.listen()",
+        "express.static()",
+        "express.params()",
+        "express.locals()"
+      ],
+      "correctAnswer": 1,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Inside an Express route handler, which object represents the incoming HTTP request?",
+      "options": [
+        "req",
+        "res",
+        "app",
+        "router"
+      ],
+      "correctAnswer": 0,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "What is the purpose of the next function in Express middleware?",
+      "options": [
+        "It closes the server",
+        "It sends the final response",
+        "It passes control to the next middleware",
+        "It restarts the route"
+      ],
+      "correctAnswer": 2,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Express method is commonly used to register middleware for all routes?",
+      "options": [
+        "app.use()",
+        "app.fetch()",
+        "app.mount()",
+        "app.bind()"
+      ],
+      "correctAnswer": 0,
+      "category": "Express",
+      "isActive": true
+    },
+    {
+      "questionText": "Which object in Express is commonly used to send an HTTP status code like 404 or 201?",
+      "options": [
+        "req",
+        "router",
+        "res",
+        "next"
+      ],
+      "correctAnswer": 2,
+      "category": "Express",
+      "isActive": true
+    },
+
+    {
+      "questionText": "MongoDB is best described as which type of database?",
+      "options": [
+        "Relational database",
+        "NoSQL document database",
+        "Graph database",
+        "In-memory key-value database"
+      ],
+      "correctAnswer": 1,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "In Mongoose, which method is commonly used to insert multiple documents at once?",
+      "options": [
+        "findMany()",
+        "insertMany()",
+        "createAll()",
+        "saveAll()"
+      ],
+      "correctAnswer": 1,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which field is automatically created by MongoDB as the primary identifier?",
+      "options": [
+        "idNumber",
+        "_id",
+        "primaryKey",
+        "docId"
+      ],
+      "correctAnswer": 1,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "What does a MongoDB collection contain?",
+      "options": [
+        "Rows",
+        "Tables",
+        "Documents",
+        "Functions"
+      ],
+      "correctAnswer": 2,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which Mongoose schema option automatically adds createdAt and updatedAt fields?",
+      "options": [
+        "timestamps",
+        "autodate",
+        "history",
+        "trackChanges"
+      ],
+      "correctAnswer": 0,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "What does Model.findById(id) typically return when a matching MongoDB document exists?",
+      "options": [
+        "An array of all documents",
+        "The matching document",
+        "Only the _id string",
+        "A route handler"
+      ],
+      "correctAnswer": 1,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which MongoDB query operator matches values greater than a given number?",
+      "options": [
+        "$lt",
+        "$in",
+        "$gt",
+        "$set"
+      ],
+      "correctAnswer": 2,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which BSON type is commonly used for MongoDB document identifiers?",
+      "options": [
+        "StringMap",
+        "BinaryList",
+        "ObjectId",
+        "HashTable"
+      ],
+      "correctAnswer": 2,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which MongoDB command is commonly used to update a single matching document?",
+      "options": [
+        "updateOne()",
+        "insertBatch()",
+        "selectOne()",
+        "replaceAll()"
+      ],
+      "correctAnswer": 0,
+      "category": "MongoDB",
+      "isActive": true
+    },
+    {
+      "questionText": "Which MongoDB query method is commonly used to return all documents that match a filter?",
+      "options": [
+        "find()",
+        "matchOne()",
+        "select()",
+        "scan()"
+      ],
+      "correctAnswer": 0,
+      "category": "MongoDB",
+      "isActive": true
+    }
+  ]
+}
